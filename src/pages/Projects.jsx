@@ -28,34 +28,66 @@ const Projects = () => {
         }
       );
     };
-  }, [window.onmousemove]);
+  });
 
   return (
     <div id="gallery" className="flex justify-center align-middle">
       <h1 className="text-3xl">PROJECTS THAT I WORKED ON</h1>
       <div class="tile">
-        <img src="https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fHJhbmRvbSUyMG9iamVjdHN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=70" />
+        <img
+          src="https://github.com/Abolfazl-Mousavi/SolarSystem-three.js/raw/main/picture.png"
+          alt="SolarSystem"
+        />
+        <div>
+          <h3 className="text-lg font-semibold">SolarSystem with three.js</h3>
+          <p>a 3D page with informations about SolarSystem</p>
+        </div>
       </div>
       <div class="tile">
-        <img src="https://images.unsplash.com/photo-1587590227264-0ac64ce63ce8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cmFuZG9tJTIwb2JqZWN0c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=70" />
+        <img
+          src="https://github.com/Abolfazl-Mousavi/SaySwapy-UniswapClone-/raw/main/Screenshot%202022-10-21%20042443.png"
+          alt="SaySwapy"
+        />
+        <div>
+          <h3 className="text-lg font-semibold">SaySwapy-UniSwapClone</h3>
+          <p>Swap tokens and ETHEREUM with two clicks</p>
+        </div>
       </div>
       <div class="tile">
-        <img src="https://images.unsplash.com/photo-1520121401995-928cd50d4e27?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Z3JlZW58ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=70" />
+        <img
+          src="https://github.com/Abolfazl-Mousavi/pwa-hangman/raw/main/Screenshot%202022-10-20%20220149.png"
+          alt="PWA Hangman Game"
+        />
+        <div>
+          <h3 className="text-lg font-semibold">PWA Hangman Game</h3>
+          <p>a Hangman game you can install it and run offline</p>
+        </div>
       </div>
       <div class="tile">
-        <img src="https://images.unsplash.com/photo-1511447333015-45b65e60f6d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cHVycGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=70" />
+        <img
+          src="https://github.com/Abolfazl-Mousavi/qu8iz-game/raw/main/Screenshot%202022-10-21%20044716.png"
+          alt="Qu8iz game"
+        />
+        <div>
+          <h3 className="text-lg font-semibold">Qu8iz game</h3>
+          <p>
+            test your general information and try to get the highets score that
+            you can.
+          </p>
+        </div>
       </div>
       <div class="tile">
-        <img src="https://images.unsplash.com/photo-1557800636-894a64c1696f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8b3JhbmdlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=70" />
-      </div>
-      <div class="tile">
-        <img src="https://images.unsplash.com/photo-1520338258525-606b90f95b04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGRhcmslMjBibHVlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=70" />
-      </div>
-      <div class="tile">
-        <img src="https://images.unsplash.com/photo-1521127474489-d524412fd439?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTh8fHJhbmRvbSUyMG9iamVjdHN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=70" />
-      </div>
-      <div class="tile">
-        <img src="https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cmFuZG9tJTIwb2JqZWN0c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=70" />
+        <img
+          src="https://github.com/Abolfazl-Mousavi/web3-ETH-transaction/raw/master/Screenshot%202022-10-21%20045337.png"
+          alt="ETransactions"
+        />
+        <div>
+          <h3 className="text-lg font-semibold">ETransactions</h3>
+          <p>
+            you can send a transaction in blockchain and transfer a desired
+            amount of eth in goreli testnet to other accounts
+          </p>
+        </div>
       </div>
     </div>
   );

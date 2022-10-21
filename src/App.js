@@ -6,7 +6,6 @@ import { Wrapper } from "./components";
 function App() {
   return (
     <div className="container">
-      <div className="nav"></div>
       <Wrapper />
     </div>
   );

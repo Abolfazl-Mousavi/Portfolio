@@ -13,7 +13,7 @@
     width: max(300px,30vw);
     height: max(300px,30vw);
     
-    background: rgb(19, 162, 157);
+    background: RGB(192, 241, 201);
     border-radius: 100%;
     position: absolute;
     top: 100%;

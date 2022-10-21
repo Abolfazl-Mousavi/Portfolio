@@ -27,7 +27,7 @@ const Wrapper = () => {
 
   useEffect(() => {
     const wrapper = document.getElementById("wrapper");
-    setInterval(() => {
+    const intervalW = setInterval(() => {
       const index = uniqueRand(0, combinations.length - 1, prev),
         combination = combinations[index];
 
@@ -36,6 +36,8 @@ const Wrapper = () => {
 
       prev = index;
     }, 4000);
+
+    return () => clearInterval(intervalW);
   }, []);
 
   return (
@@ -43,8 +45,8 @@ const Wrapper = () => {
       <Link to="/info" className="shape" title="INFO">
         INFO
       </Link>
-      <Link to="/status" className="shape" title="STATUS">
-        STATUS
+      <Link to="/contactme" className="shape" title="CONTACT ME">
+        CONTACT ME
       </Link>
       <Link to="/skills" className="shape" title="SKILLS">
         SKILLS
@@ -58,9 +60,8 @@ const Wrapper = () => {
       <Link to="/supportme" className="shape" title="SUPPORT ME">
         SUPPORT ME
       </Link>
-      <Link to="/contactme" className="shape" title="CONTACT ME">
-        CONTACT ME
-      </Link>
+      
+      <div className="-top-10 absolute text-red-600">click me ↷</div>
     </div>
   );
 };
